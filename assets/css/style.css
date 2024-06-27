@@ -13,18 +13,6 @@ body {
 }
 
 
-/*media*/
-
-@media screen and (min-width: 500px) {
-    .h1 {
-         flex: 0 0 50%;
-         max-width: 50%;
-     }
-     .h1:last-child{
-         flex-grow: 1;
-     }
-
-
 /* Styles for Header & Nav */
 h1 {
     font-size: 42px;
@@ -47,7 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 5px 10px;
+    padding: 5px 12px;
 
 }
 
@@ -58,52 +46,18 @@ nav ul li a {
 
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
     color:darkgreen;
 }
 
 section {
-    padding :10px;
+    padding :12px;
 }
 
-/* Contact Info Styles */
-.border3 {
-    border-right: 5px solid #67d4e0;
-    height: 100px;
-    flex: 2 18.5%;
-
-}
-
-.contact-info {
-    flex: 150;
-}
-.contact-info ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: left;
-    list-style: none;
-    margin-left: 15px;
-    width: 100%;  
-    }
-
-.contact-info ul li a {
-    margin: 0 30px;
-    font-size: 18px;
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 3px solid;
-    padding-bottom: 2px;
-    }
-
-.resume{
-    margin: 20px 20px;
-    color: #024e76;
-}
 /* Style Intro Pic */
 .image0 {
     margin: 0;
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -124,14 +78,15 @@ section {
 
 .image1 {
     position: absolute;
-    top: 150px;
+    top: 200px;
     right: 90px;
     border: 3px var(--primary-color);
-    height:150px;
-    width: 150px; 
+    height: 200px;;
+    width: 200px; 
     border-width: 5px; 
     border-style: dashed;
 }
+
 /* About Me,Work Section */
 .about {
     align-items: center;
@@ -207,3 +162,50 @@ flex-direction: row;}
     border: solid 5 px var(--primary-color);
     padding: 5px
 }
+
+
+/* Contact Info Styles */
+.border3 {
+    border-right: 5px solid #67d4e0;
+    height: 100px;
+    flex: 2 18.5%;
+}
+
+.contact-info {
+    flex: 150;
+}
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 15px;
+    width: 100%;  
+    }
+
+.contact-info ul li a {
+    margin: 0 30px;
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
+    }
+
+.resume{
+    margin: 20px 20px;
+    color: #024e76;
+}
+
+/*media*/
+
+@media screen and (min-width: 500px) {
+    .h1 {
+         flex: 0 0 50%;
+         max-width: 50%;
+     }
+     .h1:last-child{
+         flex-grow: 1;
+     }
+    }
