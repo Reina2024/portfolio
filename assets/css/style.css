@@ -5,3 +5,8 @@ body {
 #first-li{
     background-color: darkgray;
 }
+
+.flex-container {
+    display: flex;
+
+}

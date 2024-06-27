@@ -1,28 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<!--Header-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reina Simms</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reina's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
+    <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
-<body>
-    <Header>
-    <h1>Reina Simms</h1>
-</Header>
 
-    <img src="./assets/css/images/IMG_2823.JPG" alt="My Picture">
+<body>
+    <!-- links and Navigation to the sections and developer's name -->
     <nav>
-<ul>
-<li id="first-li">About</li>
-<li>Work</li>
-<li>Contact</li>
-</ul>
+        <h1>Reina Simms</h1>
+        <ul>
+            <li><a href="#About">About me</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="">Resume</a></li>
+        </ul>
     </nav>
-<section id=""About></section>
-<section id=""Work></section>
-<section id=""Contact></section>
+    <!-- Banner image -->
+    <section class="banner picture">
+        <div id="container">
+            <img class="image0" src="" alt="header Photo">
+            <div class="bottom-right">Software Dev</div>
+        </div>
+    </section>
+    <!-- developer's picture -->
+    <main>
+        <section id="Intro">
+            <h1>My Portfolio</h1>
+            <img class="image1" src="./assets/css/images/IMG_2823.JPG" alt="My Photo">
+        </section>
+        <!-- About me section with intro  -->
+        <section id="About" class="About">
+            <div class="flex-row">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="step-info">
+                <div class="vl-border1">
+                </div>
+                <div class="step-text">
+                    <p>
+                        I'm Reina Simms and this is my first portfolio that will be designed to represent some of my work in both UX design and software development. I have many varried experinces that will help me to continue to grow and improve my skills along the way.
+                    </p>
+                </div>
+        </section>
+
+        <!-- Work section -->
+        <section id="Work" class="Work">
+            <div class="flex-row">
+                <h2 class="section-title">Work done</h2>
+                <div class="step-info">
+                    <div class="vl-border2">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+                <!--CSS grid of images with caption-->
+                <div class="container">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <a href="">
+                                <img src="" class="gallery__img" alt="">
+                            </a>
+                        </figure>
+                        <div class="gallery-row">
+                            <figure class="gallery__item">
+                                <a href=""alt= Coming soon>
+                                    <img src="https://github.com/Reina2024/Code-Refactor" class="gallery__img2" alt="Refactored Site">
+                                </a>
+                            </figure>
+                        <div class="gallery-row">
+                            <figure class="gallery__item">
+                                <a href="">
+                                    <img src="" class="gallery__img"
+                                        alt="Coming Soon">
+                                </a>
+                            </figure>
+
+                            <figure class="gallery__item">
+                                <a href="">
+                                    <img src="" class="gallery__img" alt="Coming Soon">
+
+                                </a>
+                            </figure>
+
+                            <figure class="gallery__item">
+                                <a href="#">
+                                    <img src="Assets/images/Education.jpg" class="gallery__img" alt="Coming Soon">
+                                </a>
+                            </figure>
+                            <figure class="gallery__item">
+                                <a href="#">
+                                    <img src="" class="gallery__img"
+                                        alt="Coming Soon">     
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact me section -->
+        <section id="Contact" class="About">
+            <div class="flex-row">
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="step-info">
+                <div class="vl-border3">
+                </div>
+                <div class="contact-info">
+                    <ul>
+                        <!--List item elements-->
+                        <li>
+                            <a href="Phone">Phone:+1-467-3859</a>
+                        </li>
+                        <li>
+                            <a href="#website.com">email:reinaasimms@website.com</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Reina2024/Code-Refactor">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/">Spotify</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+    </main>
 </body>
+
 </html>
