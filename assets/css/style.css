@@ -132,3 +132,37 @@ section {
     border-width: 5px; 
     border-style: dashed;
 }
+/* About Me,Work Section */
+.about {
+    align-items: center;
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 50px;
+    width: 90%;
+}
+.flex-row{ display:flex;
+justify-content: left;
+flex-direction: row;}
+
+.vl-border1 {
+    border-right: 3px solid var(--primary-color);
+    height: 200px;
+    flex: 20%;
+    }
+.step-text {
+    flex: 10px
+}
+.step-text p{ font-size: 25px; 
+    color: var(--primary-color);
+    line-height: 1.5; margin-left: 45px;
+    width: 100%;
+}
+
+.vl-border2 {
+    height: 1200 px; flex: 0 0 190px
+}
+
+#container { color: whitesmoke; text-align: center; position: relative;
+
+} 
