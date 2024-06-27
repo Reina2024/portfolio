@@ -125,11 +125,10 @@ section {
 .image1 {
     position: absolute;
     top: 150px;
-    left: 30px;
-    border: 3px var(--primary-color) solid;
+    right: 90px;
+    border: 3px var(--primary-color);
     height:150px;
-    width: 150px;
-    border-radius: 10%; 
-    border-width: 3px; 
-    border-style: solid
+    width: 150px; 
+    border-width: 5px; 
+    border-style: dashed;
 }
