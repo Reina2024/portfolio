@@ -1,6 +1,6 @@
 /* ensure selection made on parent */
 :root {
-    --primary-color:#0bc9de;
+    --primary-color:#012428;
 }
 * {
     margin: 0;
@@ -64,4 +64,39 @@ h2 {
 
 section {
     padding :10px;
+}
+
+/* Contact Info Styles */
+.vl-border3 {
+    border-right: 5px solid #67d4e0;
+    height: 100px;
+    flex: 2 18.5%;
+
+}
+
+.contact-info {
+    flex: 150;
+}
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 15px;
+    width: 100%;  
+    }
+
+.contact-info ul li a {
+    margin: 0 30px;
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
+    }
+
+.resume{
+    margin: 20px 20px;
+    color: #024e76;
 }
