@@ -1,15 +1,18 @@
+/* ensure selection made on parent */
+:root {
+    --primary-color:#0bc9de;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
 body {
     background-color: lightblue;
 }
 
-#first-li{
-    background-color: darkgray;
-}
 
-.flex-container {
-    display: flex;
-
-}
 /*media*/
 
 @media screen and (min-width: 500px) {
@@ -20,4 +23,45 @@ body {
      .h1:last-child{
          flex-grow: 1;
      }
-     
+
+
+/* Styles for Header & Nav */
+h1 {
+    font-size: 42px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:#0bc9de ;
+}
+
+nav h1 {
+    font-size: 32px;
+    color:darkgreen;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 5px 10px;
+
+}
+
+nav ul li a {
+    color:whitesmoke;
+    font:bold;
+}
+
+
+h2 {
+    font-size: 24px;
+    color:darkgreen;
+}
+
+section {
+    padding :10px;
+}
