@@ -7,4 +7,5 @@ This is my portfolio. At this time it should be considered as a "work in progres
 
 # Links
 https://reina2024.github.io/portfolio/
+
 https://github.com/Reina2024/portfolio
