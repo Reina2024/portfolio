@@ -1,215 +1,241 @@
 /* ensure selection made on parent */
 :root {
-    --primary-color:#012428;
+  --primary-color: #012428;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}  
-
-body {
-    background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  background-color: lightblue;
+}
 
 /* Styles for Header & Nav */
 h1 {
-    font-size: 42px;
+  font-size: 42px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    background-color:#0bc9de ;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0bc9de;
 }
 
 nav h1 {
-    font-size: 32px;
-    color:darkgreen;
+  font-size: 32px;
+  color: darkgreen;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 nav ul li {
-    padding: 5px 12px;
-
+  padding: 5px 12px;
 }
 
 nav ul li a {
-    color:whitesmoke;
-    font:bold;
+  color: whitesmoke;
+  font: bold;
 }
 
-
 h2 {
-    font-size: 28px;
-    color:darkgreen;
+  font-size: 28px;
+  color: darkgreen;
 }
 
 section {
-    padding :12px;
+  padding: 12px;
 }
 
 /* Style Intro Pic */
 .image0 {
-    margin: 0;
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    position: relative;
+  margin: 0;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 40px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 40px;
 }
 
 /* Style PIc of Me */
 
 .image1 {
-    position: absolute;
-    top: 190px;
-    right: 90px;
-    border: 3px var(--primary-color);
-    height: 200px;;
-    width: 200px; 
-    border-width: 5px; 
-    border-style: dashed;
+  position: absolute;
+  top: 190px;
+  right: 90px;
+  border: 3px var(--primary-color);
+  height: 200px;
+  width: 200px;
+  border-width: 5px;
+  border-style: dashed;
 }
 
 /* About Me,Work Section */
 .about {
-    align-items: center;
- display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 25px 50px;
-    width: 90%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px 50px;
+  width: 90%;
 }
-.flex-row{ display:flex;
-justify-content: left;
-flex-direction: row;}
+.flex-row {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
 
 .step-info {
-    display: flex; flex: 2 25%; flex-direction: row; flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex: 2 25%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .border1 {
-    border-right: 3px solid var(--primary-color);
-    height: 200px;
-    flex: 20%;
-    }
-.step-text {
-    flex: 10px
+  border-right: 3px solid var(--primary-color);
+  height: 200px;
+  flex: 20%;
 }
-.step-text p{ font-size: 25px; 
-    color: var(--primary-color);
-    line-height: 1.5; margin-left: 45px;
-    width: 100%;
+.step-text {
+  flex: 10px;
+}
+.step-text p {
+  font-size: 25px;
+  color: var(--primary-color);
+  line-height: 1.5;
+  margin-left: 45px;
+  width: 100%;
 }
 
 .border2 {
-    height: 1200 px; flex: 0 0 190px
+  height: 1200 px;
+  flex: 0 0 190px;
 }
 
-#container { color: whitesmoke; text-align: center; position: relative;
-
-} 
+#container {
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+}
 
 /* Images */
 
 .container {
-    display:flex ; width: 100% ; flex-direction: column; align-items: flex-start;
-    justify-content: space-between; flex: 80;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 80;
 }
 .gallery {
-    display: flex; max-width: 950px; flex-direction: column;
-    padding: 12px;
-
+  display: flex;
+  max-width: 950px;
+  flex-direction: column;
+  padding: 12px;
 }
 
 .gallery-row {
-    display:flex; flex-direction: row; flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .gallery-row figure {
-    flex: 0 0 50%
+  flex: 0 0 50%;
 }
 
 .gallery1 {
-    position: relative; padding: 10px;
-    flex-direction: row-reverse; 
-    grid-gap: 20px; flex-wrap: wrap; 
+  position: relative;
+  padding: 10px;
+  flex-direction: row-reverse;
+  grid-gap: 20px;
+  flex-wrap: wrap;
 }
 
 .gallery2 {
-    position: relative; padding: 10px;
-    flex-direction: row-reverse; 
-    grid-gap: 20px ; flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+  flex-direction: row-reverse;
+  grid-gap: 20px;
+  flex-wrap: wrap;
 }
 .galleryimg {
-    display: flex; width: 100%; height: 450px;
-    border: solid 5 px var(--primary-color);
-    padding: 5px; flex-wrap: wrap; 
+  display: flex;
+  width: 100%;
+  height: 450px;
+  border: solid 5 px var(--primary-color);
+  padding: 5px;
+  flex-wrap: wrap;
 }
-
 
 /* Contact Info Styles */
 .border3 {
-    border-right: 5px solid #67d4e0;
-    height: 100px;
-    flex: 2 18.5%;
+  border-right: 5px solid #67d4e0;
+  height: 100px;
+  flex: 2 18.5%;
 }
 
 .contact-info {
-    flex: 150;
+  flex: 150;
 }
 .contact-info ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: left;
-    list-style: none;
-    margin-left: 15px;
-    width: 100%;  
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+  list-style: none;
+  margin-left: 15px;
+  width: 100%;
+}
 
 .contact-info ul li a {
-    margin: 0 30px;
-    font-size: 18px;
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 3px solid;
-    padding-bottom: 2px;
-    }
+  margin: 0 30px;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 3px solid;
+  padding-bottom: 2px;
+}
 
-.resume{
-    margin: 20px 20px;
-    color: #024e76;
+.resume {
+  margin: 20px 20px;
+  color: #024e76;
 }
 /* Firgure Captions Attempt */
 figcaption {
-    background-color: chartreuse;color: coral; border: solid 3px var(--primary-color);
-    font-size: 14px; font-style: normal;font-weight: bolder;
-    position: absolute; margin-top: -15%;
+  background-color: chartreuse;
+  color: coral;
+  border: solid 3px var(--primary-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: -15%;
 }
 /*media*/
 
 @media screen and (min-width: 500px) {
-    .h1 {
-         flex: 0 0 50%;
-         max-width: 50%;
-     }
-     .h1:last-child{
-         flex-grow: 1;
-     }}
+  .h1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .h1:last-child {
+    flex-grow: 1;
+  }
+}
