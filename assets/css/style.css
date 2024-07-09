@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: lightgrey;
 }
 
 /* Styles for Header & Nav */
@@ -20,12 +20,12 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #0bc9de;
+  background-color: darkgray;
 }
 
 nav h1 {
   font-size: 32px;
-  color: darkgreen;
+  color: black;
 }
 
 nav ul {
@@ -38,13 +38,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: whitesmoke;
+  color: black;
   font: bold;
 }
 
 h2 {
   font-size: 28px;
-  color: darkgreen;
+  color: black;
 }
 
 section {
@@ -113,7 +113,7 @@ section {
   flex: 20%;
 }
 .step-text {
-  flex: 10px;
+  flex: 35px;
 }
 .step-text p {
   font-size: 25px;
@@ -186,7 +186,7 @@ section {
 
 /* Contact Info Styles */
 .border3 {
-  border-right: 5px solid #67d4e0;
+  border-right: 5px solid lightgray;
   height: 100px;
   flex: 2 18.5%;
 }
@@ -219,8 +219,8 @@ section {
 }
 /* Firgure Captions Attempt */
 figcaption {
-  background-color: chartreuse;
-  color: coral;
+  background-color: rgb(78, 77, 77);
+  color: whitesmoke;
   border: solid 3px var(--primary-color);
   font-size: 14px;
   font-style: normal;
